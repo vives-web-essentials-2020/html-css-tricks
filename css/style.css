@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#99e9f2,#e3fafc);
+    background-repeat: no-repeat;
+    background-color: #e3fafc;
+    height: 100%;
+}
+
+.nice-background {
+    background: linear-gradient(to right bottom, burlywood, rgb(121, 121, 233));
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+
+div.center {
+    display: flex;
+    justify-content: center;
+}
+
+.round-borders {
+    border-radius: 20px;
+}
+
+.center-everything {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient p {
+    background-color: burlywood;
+}
+
+.dark-bg {
+    background-color: #2A4B7C;
+    color: #eceff4;
+}
+
+.light-bg {
+    color: #2A4B7C;
+    background-color: #eceff4;  
+}
+
+section.class-reuse div, section.class-reuse p {
+    padding: 20px;
+} 
